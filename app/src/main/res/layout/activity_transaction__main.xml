@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Transaction_Main"
+    android:background="@drawable/interface_background"
+    android:padding="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transaction"
+        android:textColor="@color/colorText"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryLight"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/collection_center"
+        android:textColor="@color/colorText"
+        android:textSize="13sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCollection"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/btncollection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/item"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerItem"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/btnitem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/trip"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTrip"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/btntrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/truck"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTruck"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <Button
+        android:id="@+id/btntruck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/compartment"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerCompartment"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        />
+
+    <Button
+        android:id="@+id/btncomp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/test"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerTest"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        />
+
+    <Button
+        android:id="@+id/btntest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/reading"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerReading"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        />
+
+    <Button
+        android:id="@+id/btnreading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/vat"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerVat"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="100dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        />
+
+    <Button
+        android:id="@+id/btnvat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/uom"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_uom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="-30dp"
+        android:hint="@string/l" />
+
+    <Button
+        android:id="@+id/btnuom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sync"
+        android:layout_marginTop="-50dp"
+        android:layout_marginLeft="300dp"
+        android:textSize="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/qty"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_qty"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="-30dp"
+        android:textColor="@color/colorText"
+        android:hint="@string/_0" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/comment"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/et_cmmnt"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
+        android:textColor="@color/colorText"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_shape"
+            android:text="@string/cancel"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="15sp"/>
+
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_shape"
+            android:text="@string/save"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="50dp"/>
+
+    </LinearLayout>
+</LinearLayout>

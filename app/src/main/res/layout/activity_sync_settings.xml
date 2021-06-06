@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sync_settings"
+    android:orientation="vertical"
+    android:background="@drawable/interface_background"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sync_amp_settings"
+        android:textColor="@color/colorText"
+        android:textSize="25sp"
+        android:gravity="center_horizontal"/>
+
+    <View
+        android:layout_marginTop="20dp"
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryLight"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/synchronization"
+        android:textColor="@color/colorText"
+        android:textSize="15sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnSync"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sync"
+        android:background="@drawable/button_shape"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/settings"
+        android:textSize="15sp"
+        android:textColor="@color/colorText"
+        android:layout_marginTop="20dp"
+        />
+
+
+
+    <Button
+        android:id="@+id/getInit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_initial_data"
+        android:background="@drawable/button_shape"
+        android:layout_marginTop="20dp"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Daily Milk Calculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="reset">Clear</string>
+    <string name="login">login</string>
+    <string name="no_account">Don\'t Have an Account</string>
+    <string name="register">register</string>
+    <string name="title_activity_collection__center">Collection_Center</string>
+    <string name="title_activity_sync_settings">SyncSettings</string>
+    <string name="title_activity_main__center">Main_Center</string>
+    <string name="sign_up_to_continue">Sign up to continue</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="telephone">Telephone</string>
+    <string name="save_btn">save</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="select_the_center">Select the Center</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="transaction">Transaction</string>
+    <string name="title_activity_collection__list">Collection_List</string>
+    <string name="title_activity_collection_list">Collection_list</string>
+    <string name="title_activity_collection_center">Collection_center</string>
+    <string name="title_activity_main_center">Main_center</string>
+    <string name="session">Session</string>
+    <string name="item">Item</string>
+    <string name="supplier">Supplier</string>
+    <string name="sync">Sync</string>
+    <string name="kg">KG</string>
+    <string name="_0">0</string>
+    <string name="comment">Comment</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="sync_amp_settings"><![CDATA[Sync & Settings]]></string>
+    <string name="synchronization">Synchronization</string>
+    <string name="get_initial_data">Get initial data</string>
+    <string name="settings">Settings</string>
+    <string name="main_center">Main Center</string>
+    <string name="collection_center">Collection Center</string>
+    <string name="trip">Trip</string>
+    <string name="truck">Truck</string>
+    <string name="compartment">Compartment</string>
+    <string name="test">Test</string>
+    <string name="reading">Reading</string>
+    <string name="vat">Vat</string>
+    <string name="uom">UOM</string>
+    <string name="l">L</string>
+    <string name="qty">Qty</string>
+    <string name="title_activity_init_data">initData</string>
+
+
+</resources>
